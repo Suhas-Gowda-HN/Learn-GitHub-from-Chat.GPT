@@ -1,0 +1,15 @@
+## Day 1: What is Git & GitHub?
+
+🧠 Learned:
+- Git is a tool for version control.
+- GitHub is an online hosting service for Git repositories.
+- Version control is useful for tracking changes, especially in coding and collaboration.
+
+💻 Commands Used:
+- `git --version` – to check if Git is installed.
+- `git config --global user.name "Suhas Gowda"`
+- `git config --global user.email "your-email@example.com"`
+
+🌍 Real-Life Analogy:
+Git = Saving drafts of a document.
+GitHub = Uploading those drafts to Google Drive so others can see/edit.
