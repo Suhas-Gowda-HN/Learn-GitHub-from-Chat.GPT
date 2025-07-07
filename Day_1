@@ -27,3 +27,19 @@ Like saving backup copies of my homework every day—so if I make a mistake, I c
 
 👨‍💻 Git is a version control system.
 📦 GitHub is where I store Git projects online.
+
+
+🧠 Day 1 commands used with explanations:
+
+🔹 git --version
+📌 Use: Checks if Git is installed on your machine.
+🛠️ Why: Git must be installed to use version control.
+🧪 Example Output: git version 2.42.0
+✅ Run once, only for checking setup.
+
+🔹 git config --global user.name "Your Name"
+🔹 git config --global user.email "your-email@example.com"
+📌 Use: Sets your global Git identity (name and email).
+🛠️ Why: Every commit you make is tagged with this info—needed for collaboration and history.
+✅ Run once, unless you want to change your identity.
+📍Note: This info appears on your GitHub commits too.
