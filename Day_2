@@ -1,0 +1,17 @@
+## 📅 Day 2: Creating My First Local Git Repo ( On Mac )
+
+📘 What I Learned:
+- A Git repository is just a folder Git watches for changes.
+- `git init` tells Git to start tracking that folder.
+- `touch` creates a new empty file.
+- `echo "text" >> file` adds text into a file.
+
+💻 Commands Used:
+
+cd ~
+mkdir git-practice
+cd git-practice
+git init
+touch README.md
+echo "# My First Git Repo" >> README.md
+git status
