@@ -15,3 +15,50 @@ git init
 touch README.md
 echo "# My First Git Repo" >> README.md
 git status
+
+
+🧠 Day 2 Git Commands with Explanations
+
+🔹 mkdir folder-name
+📌 Use: Creates a new folder (also called a directory).
+🛠️ Why: To organize your projects. You usually make a new folder for each Git repo.
+💻 Example: mkdir git-practice
+
+🔹 cd folder-name
+📌 Use: Moves into the folder you just created.
+🛠️ Why: Git commands only work inside a Git repository.
+💻 Example: cd git-practice
+
+🔹 git init
+📌 Use: Initializes an empty Git repository in the current folder.
+🛠️ Why: Tells Git to start tracking changes in this folder.
+📁 Creates a hidden .git folder where Git stores all version history.
+🔄 Use once per project.
+
+🔹 touch filename
+📌 Use: Creates a new empty file.
+🛠️ Why: Helps you start tracking a file like README.md or main.py.
+💻 Example: touch README.md
+
+🔹 echo "some text" >> filename
+📌 Use: Adds text to a file from the terminal.
+🛠️ Why: Quickly creates or edits file contents without opening an editor.
+💡 Double >> appends to the file (won’t erase previous content).
+
+🔹 ls -a
+📌 Use: Lists all files, including hidden ones like .git.
+🛠️ Why: Helps you check if your folder is a Git repo (look for .git).
+💻 Output: .git README.md
+
+🔹 git status
+📌 Use: Shows the current state of your working directory and Git repo.
+🛠️ Why: It tells you:
+Which files are untracked
+Which files have been modified
+Which files are staged (ready to be committed)
+🧪 You'll use this command frequently to check what Git sees.
+
+🔹 code .
+📌 Use: Opens the current folder in Visual Studio Code.
+🛠️ Why: Lets you edit files inside your Git project using VS Code GUI.
+🧩 Must have VS Code CLI installed (do it once from VS Code: Cmd + Shift + P → "Shell Command: Install 'code' command in PATH")
