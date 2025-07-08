@@ -1,1 +1,15 @@
+## 📅 Day 3: Staging and Committing in Git
+
+🧠 Learned:
+- Git uses a two-step save system: `git add` and `git commit`.
+- `git add` puts files into the staging area.
+- `git commit` saves a snapshot of staged changes with a message.
+- `git log` lets me see all past commits and their messages.
+
+💻 Commands Used:
+```bash
+git status
+git add README.md
+git commit -m "Added intro line to README"
+git log
 
